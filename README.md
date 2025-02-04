@@ -1,14 +1,18 @@
-# Number Classification API
+
+# HNG Stage One Task - Number Classification API
 
 This API classifies a number and returns its mathematical properties along with a fun fact.
 
 ## Endpoint
+
 `GET /api/classify-number?number=<number>`
 
 ## Example Request
+
 `GET /api/classify-number?number=371`
 
 ## Example Response
+
 ```json
 {
   "number": 371,
